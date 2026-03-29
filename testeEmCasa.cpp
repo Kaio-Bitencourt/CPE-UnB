@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
     
-    cout << "Eu sou o batman" << endl;
+    cout << "Eu sou o batman";
     return 0;
 
 
