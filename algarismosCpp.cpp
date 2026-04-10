@@ -24,6 +24,29 @@ int main (){
     int a1 = numero / 100000;
     
     cout << " os algarismos indentificados foram: " << a1 << " , " << a2 << " , " << a3 << " , " << a4 << " , " << a5 << " , " << a6 << " , ";
+
+    
+    if (a2 > a1 + a3)
+    {
+        cout << a2  << " e maior que os vizinhos" << endl;
+
+    }
+    if (a3 > a2 + a5 )
+    {
+        cout << a3  << " e maior que os vizinhos" << endl;
+
+    }
+    if ( a4 > a3 + a5)
+    {
+        cout << a4  << " e maior que os vizinhos" << endl;
+
+    }
+    if (a5 > a4 + a6)
+    {
+        cout << a5  << " e maior que os vizinhos" << endl;
+    }
+    
+    return 0;
      
 
 
